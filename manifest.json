@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "discord-revert",
+  "version": "0.0.2",
+  "description": "Revert bad UI",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://discord.com/*"],
+    "run_at": "document_end"
+  }],
+  "optional_permissions": [
+    "activeTab"
+  ]
+ 
+ 
+}

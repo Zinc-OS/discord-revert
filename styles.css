@@ -144,7 +144,7 @@
 html.newBrand {
     --brand-experiment-100: #7289da !important;
     --brand-experiment-130: #7289da !important;
-    --brand-experiment-160: #7289da !important;
+    --brand-experiment-160: #7289da55 !important;
     --brand-experiment-200: #7289da !important;
     --brand-experiment-230: #7289da !important;
     --brand-experiment-260: #7289da !important;
@@ -160,7 +160,7 @@ html.newBrand {
     --brand-experiment-560: #7289da !important;
     --brand-experiment-600: #7289da !important;
     --brand-experiment-630: #343b8f !important;
-    --brand-experiment-660: #7289da2d347d !important;
+    --brand-experiment-660: #7289da !important;
     --brand-experiment-700: #232861 !important;
     --brand-experiment-730: #21265b !important;
     --brand-experiment-760: #1e2353 !important;
@@ -170,7 +170,7 @@ html.newBrand {
     --brand-experiment-900: #04050c !important;
     --brand-experiment-05a: rgba(88,101,242,0.05) !important;
     --brand-experiment-10a: rgba(88,101,242,0.1) !important;
-    --brand-experiment-15a: #7289da !important;
+    --brand-experiment-15a: #7289da55 !important;
     --brand-experiment-20a: #7289da !important;
     --brand-experiment-25a: #7289da !important;
     --brand-experiment-30a: #7289da !important;
@@ -190,3 +190,25 @@ html.newBrand {
     --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
     --control-brand-foreground: var(--control-brand-foreground-new) !important;
 }
+.reaction-1hd86g {
+    border-radius: .5rem;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: .25rem;
+    margin-bottom: .25rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: none .1s ease;
+    transition: none .1s ease;
+    -webkit-transition-property: background-color,border-color;
+    transition-property: background-color,border-color;
+    background: var(--background-secondary);
+    border: 0px !important;
+	 border-color: var(--background-secondary) !important;
+}
+
